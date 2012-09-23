@@ -107,7 +107,13 @@ Istnieje kilka poprawnych sposobów ponumerowania wymienionych zadań.*
 
 ## Linki do dokumentacji.
 
-TODO
+[Colorize usage samples](http://colorize.rubyforge.org/files/README_txt.html)
+
+[Another colorize usage sample](http://stackoverflow.com/questions/1489183/colorized-ruby-output?answertab=votes#tab-top)
+
+[Arrays introduction](http://rubymonk.com/learning/books/1/chapters/1-arrays/lessons/2-arrays-introduction)
+
+[if-else statement](http://rubymonk.com/learning/books/1/chapters/1-arrays/lessons/2-arrays-introduction_)
 
 ---
 
