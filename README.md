@@ -21,7 +21,8 @@ Zawartość przewodnika:
 ## Cel ćwiczenia.
 
 Tym razem, przewodnik skupi się na podstawowych aspektach pisania programu. 
-Bez dodatku algorytmicznych zagadek. 
+
+Pomijając dodatek algorytmicznych zagadek. 
 
 Tak więc wykorzystamy pętle, warunki, proste  wejście/wyjście (danych do/z programu), 
 zmienne, tablice a także użyjemy zewnętrznej biblioteki (gema).
@@ -34,6 +35,25 @@ Niemniej jednak wykonanie ćwiczenia do końca, z pewnością zwiększy wiele um
 ---
 
 ## Opis zadania.
+
+### Treść
+
+Terminalowa lista to-do, to prosty program do przechowywania listy zadań.
+Użytkownik może wybrać operację dodawania/usuwania/wyświetlania/wyjścia z programu, 
+przy pomocy wprowadzonego z klawiatury polecenia. (może to być 1 litera lub cały wyraz)
+
+Dodając zadanie, wymagane jest jedynie, podanie jego treści. 
+
+Wyświetlając wszystkie zadania, użytkownik otrzymuje listę w której każdemu zadaniu jest przyporządkowany jego numer. 
+(oznaczający pozycję w tablicy, jednak numeracja w wyświetlanej liście będzie zaczynać się od jedynki)
+
+Usuwanie zadania polega na podaniu numeru, zadania do usunięcia, z listy wszystkich zadań.
+Podanie polecenia wyjścia, przerywa główną pętlę programu, tym samym kończąc jego działanie.
+
+Gra powinna działaś z poziomu konsoli, tzn. po uruchomieniu skryptu ruby todo.rb.
+Skrypt(czyt. program) oczywiście należy utworzyć samodzielnie.  
+
+Jak można zauważyć zadania będę przechowywane tak długo jak działa nasz program, trwałym zapisywaniem danych zajmiemy się w kolejnych przewodnikach.
 
 
 ---
