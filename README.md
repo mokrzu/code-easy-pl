@@ -176,12 +176,46 @@ end
 2. milk chocolate stout
 3. punk ipa
 ```
+### Instrukcja warunkowa
+
+Gdy chcemy sprawdzić kilka przypadków jednocześnie:
+```ruby
+
+command = gets.chop
+animals = []
+
+if command == "add"
+  animals << "lama"
+elsif command == "count":
+  puts animals.size
+elsif command == "check":
+  puts animals.empty?
+else
+  puts "Type correct command"
+end
+
+```
+
+
+### Instalacja gemu colorize.
+
+```bash
+sudo gem install colorize
+```
+Następnie dodajemy gem na początku naszego programu:
+
+```ruby
+require 'rubygems'
+require 'colorize'
+
+puts "Hello World".white.on_blue # dla wyświetlanego napisu możemy określić kolor tekstu i tła
+```
 
 ---
 
 ## Rozwiązania problemów.
 
-TODO [Gdy pojawią się problemy:]
+TODO (Gdy pojawią się problemy:)
 
 ---
 
