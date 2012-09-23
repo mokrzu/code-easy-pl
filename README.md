@@ -20,6 +20,16 @@ Zawartość przewodnika:
 
 ## Cel ćwiczenia.
 
+Tym razem, przewodnik skupi się na podstawowych aspektach pisania programu. 
+Bez dodatku algorytmicznych zagadek. 
+
+Tak więc wykorzystamy pętle, warunki, proste  wejście/wyjście (danych do/z programu), 
+zmienne, tablice a także użyjemy zewnętrznej biblioteki (gema).
+Czyli podstawowe narzędzia każdej osoby tworzącej kod.  
+
+Pomimo długiej listy wymienionych elementów, nasz program będzie bardzo krótki i szybki do napisania, 
+w przybliżeniu 30-kilka linii kodu. 
+Niemniej jednak wykonanie ćwiczenia do końca, z pewnością zwiększy wiele umiejętności:) 
 
 ---
 
