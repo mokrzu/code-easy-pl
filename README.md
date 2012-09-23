@@ -118,8 +118,18 @@ Oficjalna dokumentacja, przydatna gdy chcemy znaleźć opis działania konkretne
 [Array - Ruby documentation.](http://www.ruby-doc.org/core-1.9.3/Array.html)
 
 RubyMonk - praktyczne ćwiczenia z podstaw języka:
-[Arrays introduction](http://rubymonk.com/learning/books/1/chapters/1-arrays/lessons/2-arrays-introduction)
-[if-else statement](http://rubymonk.com/learning/books/1/chapters/8-control-structures/lessons/41-conditions-using-the-if-statement)
+[Arrays introduction, ](http://rubymonk.com/learning/books/1/chapters/1-arrays/lessons/2-arrays-introduction)
+[if-else statement.](http://rubymonk.com/learning/books/1/chapters/8-control-structures/lessons/41-conditions-using-the-if-statement)
+
+Ćwiczenia z "Learn Ruby the Hard Way". Powiązane tematycznie z naszym zadaniem:
+
+1.  [String and Text.](http://ruby.learncodethehardway.org/book/ex6.html)
+2.  [Asking Questions.](http://ruby.learncodethehardway.org/book/ex11.html)
+3.  [What if?](http://ruby.learncodethehardway.org/book/ex29.html)
+4.  [Else and if.](http://ruby.learncodethehardway.org/book/ex30.html)
+5.  [Accessing Elements Of Arrays.](http://ruby.learncodethehardway.org/book/ex34.html)
+6.  [While Loops.](http://ruby.learncodethehardway.org/book/ex33.html)
+
 
 ---
 
