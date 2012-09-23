@@ -82,13 +82,13 @@ Istnieje kilka poprawnych sposobów ponumerowania wymienionych zadań.*
 
 *   **Deklaracja zmiennych.** Przygotowanie zmiennej w której będziemy trzymali komendę wprowadzoną przez użytkownika.  Będzie ona służyła do sprawdzenia które zadanie powinniśmy wykonać, a także do przerwania wykonywania głównej pętli programu. Zadania przechowuj w przygotowanej wcześniej pustej tablicy.
 
-*   **Usunięcie zadania**. Znając indeks zadania w tablicy, wykorzystaj metodę *delte_at* w celu usunięcia danego elementu. Pamiętaj że w tablicy numeracja zaczyna się od 0.
+*   **Usunięcie zadania**. Znając indeks zadania w tablicy, wykorzystaj metodę ``delte_at`` w celu usunięcia danego elementu. Pamiętaj że w tablicy numeracja zaczyna się od 0.
 
-*   **Wejście/Wyjście.** Wyświetlaj instrukcje dla użytkownika,  oraz pobieraj polecenia i nowe zadania. Czytając tekst podany z klawiatury, pamiętaj że na jego końcu znajduje się znak nowej linii ‘\n’. Użyj odpowiedniej metody, aby go usunąć.
+*   **Wejście/Wyjście.** Wyświetlaj instrukcje dla użytkownika,  oraz pobieraj polecenia i nowe zadania. Czytając tekst podany z klawiatury, pamiętaj że na jego końcu znajduje się znak nowej linii "\n". Użyj odpowiedniej metody, aby go usunąć.
 
 *   **Sprawdzanie polecenia**. Wykorzystaj instrukcje warunkowe, w celu wykonania odpowiednich procedur w zależności od komendy podanej przez użytkownika.
 
-*   **Wyświetlenie listy zadań**.  Wypisanie ponumerowanych zadań można osiągnąć na kilka sposobów, najszybszy z nich to wykorzystanie iteratora *each_with_index*.
+*   **Wyświetlenie listy zadań**.  Wypisanie ponumerowanych zadań można osiągnąć na kilka sposobów, najszybszy z nich to wykorzystanie iteratora ``each_with_index``.
 
 *   **Dodaj gem kolorujący tekst**.  Prosty gem (biblioteka) ‘colorize’ posiada metody pozwalające w łatwy sposób zmieniać kolor tła i tekstu.
 
