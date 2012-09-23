@@ -82,7 +82,7 @@ Istnieje kilka poprawnych sposobów ponumerowania wymienionych zadań.*
 
 *   **Deklaracja zmiennych.** Przygotowanie zmiennej w której będziemy trzymali komendę wprowadzoną przez użytkownika.  Będzie ona służyła do sprawdzenia które zadanie powinniśmy wykonać, a także do przerwania wykonywania głównej pętli programu. Zadania przechowuj w przygotowanej wcześniej pustej tablicy.
 
-*   **Usunięcie zadania**. Znając indeks zadania w tablicy, wykorzystaj metodę ``delte_at`` w celu usunięcia danego elementu. Pamiętaj że w tablicy numeracja zaczyna się od 0.
+*   **Usunięcie zadania**. Znając indeks zadania w tablicy, wykorzystaj metodę ``delete_at`` w celu usunięcia danego elementu. Pamiętaj że w tablicy numeracja zaczyna się od 0.
 
 *   **Wejście/Wyjście.** Wyświetlaj instrukcje dla użytkownika,  oraz pobieraj polecenia i nowe zadania. Czytając tekst podany z klawiatury, pamiętaj że na jego końcu znajduje się znak nowej linii "\n". Użyj odpowiedniej metody, aby go usunąć.
 
