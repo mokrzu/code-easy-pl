@@ -74,7 +74,7 @@ Dlatego dane zadanie można wykonać na wiele sposobów.
 Oczywiście szukając odpowiednich rozwiązań, najlepiej wybierać te które najlepiej rozumiemy i potrafimy dostosować do naszych potrzeb.  
 W chwili gdy już otrzymamy działającą aplikację, można eksperymentować z alternatywnymi sposobami implementacji.
 
-### Opis kroków.
+### Losowy opis kroków.
 *Tym razem, nie narzucam kolejności wykonania poszczególnych kroków. 
 Istnieje kilka poprawnych sposobów ponumerowania wymienionych zadań.*
 
@@ -97,17 +97,52 @@ Istnieje kilka poprawnych sposobów ponumerowania wymienionych zadań.*
 
 ## Wymagane struktury oraz metody.
 
+### Najważniejsze operacje na tablicach.
+
+wykorzystanie indeksu.
+```ruby
+tasks = ["first task", "second task"]
+
+tasks[0]
+=> "first task"
+
+tasks[1]
+=> "second task"
+
+```
+
+Dodanie elementu do tablicy.
+```ruby
+tasks = ["first task"]
+
+tasks << "finish this tutorial"
+
+tasks
+=> ["first task", "finish this tutorial"]
+```
+
+Usunięcie elementu na danej pozycji:
+
+```ruby
+tasks = ["panda", "wombat", "koala"]
+
+tasks.delete_at(1)
+
+tasks
+=> ["panda", "koala"]
+```
 
 ---
 
 ## Rozwiązania problemów.
 
+TODO [Gdy pojawią się problemy:]
 
 ---
 
 ## Linki do dokumentacji.
 
-Oficjalna, mało zachcająca strona bibloteki. Jednak posiada spis przykładowych zastosować modułu:
+Oficjalna, mało zachęcająca strona bibloteki. Jednak posiada spis przykładowych zastosować modułu:
 [Colorize usage samples.](http://colorize.rubyforge.org/files/README_txt.html)
 
 Na stackoverflow można spotkać bardzo dużo merytorycznych odpowiedzi. 
