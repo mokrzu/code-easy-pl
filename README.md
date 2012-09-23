@@ -52,7 +52,7 @@ Podanie polecenia wyjścia, przerywa główną pętlę programu, tym samym końc
 
 Na koniec, do naszej aplikacji dodamy kolorowanie tekstu.
 
-Gra powinna działaś z poziomu konsoli, tzn. po uruchomieniu skryptu `ruby todo.rb.`
+Gra powinna działaś z poziomu konsoli, tzn. po uruchomieniu skryptu `ruby todo.rb`.
 Skrypt(czyt. program) oczywiście należy utworzyć samodzielnie.  
 
 Jak można zauważyć zadania będę przechowywane tak długo jak działa nasz program, trwałym zapisywaniem danych zajmiemy się w kolejnych przewodnikach.
@@ -97,7 +97,7 @@ Istnieje kilka poprawnych sposobów ponumerowania wymienionych zadań.*
 
 ## Wymagane struktury oraz metody.
 
-*Część przydatnych elementów można spotkać w poprzednik przewodniku, dodatkowo zachęcam do zapoznania się z linkami.*
+*Część przydatnych elementów można spotkać w poprzednim przewodniku, dodatkowo zachęcam do zapoznania się z linkami.*
 
 ### Najważniejsze operacje na tablicach.
 
