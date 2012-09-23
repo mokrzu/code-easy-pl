@@ -50,11 +50,16 @@ Wyświetlając wszystkie zadania, użytkownik otrzymuje listę w której każdem
 Usuwanie zadania polega na podaniu numeru, zadania do usunięcia, z listy wszystkich zadań.
 Podanie polecenia wyjścia, przerywa główną pętlę programu, tym samym kończąc jego działanie.
 
+Na koniec, do naszej aplikacji dodamy kolorowanie tekstu.
+
 Gra powinna działaś z poziomu konsoli, tzn. po uruchomieniu skryptu ruby todo.rb.
 Skrypt(czyt. program) oczywiście należy utworzyć samodzielnie.  
 
 Jak można zauważyć zadania będę przechowywane tak długo jak działa nasz program, trwałym zapisywaniem danych zajmiemy się w kolejnych przewodnikach.
 
+### Przykład działania.
+
+![script screenshot](http://cloud.github.com/downloads/mokrzu/code-easy-pl/todolist.png)
 
 ---
 
