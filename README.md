@@ -36,7 +36,7 @@ Niemniej jednak wykonanie ćwiczenia do końca, z pewnością zwiększy wiele um
 
 ## Opis zadania.
 
-### Treść
+### Treść.
 
 Terminalowa lista to-do, to prosty program do przechowywania listy zadań.
 Użytkownik może wybrać operację dodawania/usuwania/wyświetlania/wyjścia z programu, 
@@ -64,6 +64,15 @@ Jak można zauważyć zadania będę przechowywane tak długo jak działa nasz p
 ---
 
 ## Lista kroków.
+
+### Wstępne uwagi.
+
+Po pierwsze, warto przypomnieć sobie uwagi z [poprzedniego tutoriala](http://documentup.com/mokrzu/code-basics-pl#lista-krokow/proces-pisania-programu)
+
+Po drugie, należy pamiętać że Ruby jest dość rozbudowanym językiem. 
+Dlatego dane zadanie można wykonać na wiele sposobów.  
+Oczywiście szukając odpowiednich rozwiązań, najlepiej wybierać te które najlepiej rozumiemy i potrafimy dostosować do naszych potrzeb.  
+W chwili gdy już otrzymamy działającą aplikację, można eksperymentować z alternatywnymi sposobami implementacji.
 
 
 ---
