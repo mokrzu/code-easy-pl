@@ -97,9 +97,13 @@ Istnieje kilka poprawnych sposobów ponumerowania wymienionych zadań.*
 
 ## Wymagane struktury oraz metody.
 
+*Część przydatnych elementów można spotkać w poprzednik przewodniku, dodatkowo zachęcam do zapoznania się z linkami.*
+
 ### Najważniejsze operacje na tablicach.
 
-wykorzystanie indeksu.
+> Index - unikalny adres każdego elementu w tablicy.
+
+Wykorzystanie indeksu.
 ```ruby
 tasks = ["first task", "second task"]
 
@@ -124,12 +128,53 @@ tasks
 Usunięcie elementu na danej pozycji:
 
 ```ruby
-tasks = ["panda", "wombat", "koala"]
+animals = ["panda", "wombat", "koala"]
 
-tasks.delete_at(1)
+animals.delete_at(1)
 
-tasks
+animals
 => ["panda", "koala"]
+```
+
+### Pętle & iteratory.
+
+Pętla ``while``:
+```ruby
+check = "go"
+
+while check != "exit"
+  check = gets.chop  
+end  
+```
+
+Iterator ``each_with_index``:
+```ruby
+beer_list = ["guinness", "milk chocolate stout", "punk ipa"]
+
+beer_list.each_with_index do |beer, index|
+  puts "#{index + 1}. #{beer}"
+end
+
+=>
+1. guinness
+2. milk chocolate stout
+3. punk ipa
+```
+Alternatywna implementacja powyższego kodu: iterator ``each`` i 'licznik':
+```ruby
+beer_list = ["guinness", "milk chocolate stout", "punk ipa"]
+
+counter = 1
+
+beer_list.each do |beer|
+  puts counter.to_s + ". " + beer
+  counter += 1
+end
+
+=>
+1. guinness
+2. milk chocolate stout
+3. punk ipa
 ```
 
 ---
