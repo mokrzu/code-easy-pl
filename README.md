@@ -52,7 +52,7 @@ Podanie polecenia wyjścia, przerywa główną pętlę programu, tym samym końc
 
 Na koniec, do naszej aplikacji dodamy kolorowanie tekstu.
 
-Gra powinna działaś z poziomu konsoli, tzn. po uruchomieniu skryptu ruby todo.rb.
+Gra powinna działaś z poziomu konsoli, tzn. po uruchomieniu skryptu `ruby todo.rb.`
 Skrypt(czyt. program) oczywiście należy utworzyć samodzielnie.  
 
 Jak można zauważyć zadania będę przechowywane tak długo jak działa nasz program, trwałym zapisywaniem danych zajmiemy się w kolejnych przewodnikach.
@@ -67,12 +67,30 @@ Jak można zauważyć zadania będę przechowywane tak długo jak działa nasz p
 
 ### Wstępne uwagi.
 
-Po pierwsze, warto przypomnieć sobie uwagi z [poprzedniego tutoriala](http://documentup.com/mokrzu/code-basics-pl#lista-krokow/proces-pisania-programu)
+Po pierwsze, warto przypomnieć sobie uwagi z [poprzedniego tutoriala.](http://documentup.com/mokrzu/code-basics-pl#lista-krokow/proces-pisania-programu)
 
 Po drugie, należy pamiętać że Ruby jest dość rozbudowanym językiem. 
 Dlatego dane zadanie można wykonać na wiele sposobów.  
 Oczywiście szukając odpowiednich rozwiązań, najlepiej wybierać te które najlepiej rozumiemy i potrafimy dostosować do naszych potrzeb.  
 W chwili gdy już otrzymamy działającą aplikację, można eksperymentować z alternatywnymi sposobami implementacji.
+
+### Opis kroków.
+*Tym razem, nie narzucam kolejności wykonania poszczególnych kroków. 
+Istnieje kilka poprawnych sposobów ponumerowania wymienionych zadań.*
+
+*   **Główna pętla.** Użyj pętli ``while``, do aby ciągle pobierać polecenia od użytkownika. Pętla powinna zostać przerwana, gdy użytkownika wyda polecenie oznaczające zakończenie programu.
+
+*   **Deklaracja zmiennych.** Przygotowanie zmiennej w której będziemy trzymali komendę wprowadzoną przez użytkownika.  Będzie ona służyła do sprawdzenia które zadanie powinniśmy wykonać, a także do przerwania wykonywania głównej pętli programu. Zadania przechowuj w przygotowanej wcześniej pustej tablicy.
+
+*   **Usunięcie zadania**. Znając indeks zadania w tablicy, wykorzystaj metodę *delte_at* w celu usunięcia danego elementu. Pamiętaj że w tablicy numeracja zaczyna się od 0.
+
+*   **Wejście/Wyjście.** Wyświetlaj instrukcje dla użytkownika,  oraz pobieraj polecenia i nowe zadania. Czytając tekst podany z klawiatury, pamiętaj że na jego końcu znajduje się znak nowej linii ‘\n’. Użyj odpowiedniej metody, aby go usunąć.
+
+*   **Sprawdzanie polecenia**. Wykorzystaj instrukcje warunkowe, w celu wykonania odpowiednich procedur w zależności od komendy podanej przez użytkownika.
+
+*   **Wyświetlenie listy zadań**.  Wypisanie ponumerowanych zadań można osiągnąć na kilka sposobów, najszybszy z nich to wykorzystanie iteratora *each_with_index*.
+
+*   **Dodaj gem kolorujący tekst**.  Prosty gem (biblioteka) ‘colorize’ posiada metody pozwalające w łatwy sposób zmieniać kolor tła i tekstu.
 
 
 ---
