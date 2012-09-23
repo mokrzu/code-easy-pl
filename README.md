@@ -107,13 +107,19 @@ Istnieje kilka poprawnych sposobów ponumerowania wymienionych zadań.*
 
 ## Linki do dokumentacji.
 
-[Colorize usage samples](http://colorize.rubyforge.org/files/README_txt.html)
+Oficjalna, mało zachcająca strona bibloteki. Jednak posiada spis przykładowych zastosować modułu:
+[Colorize usage samples.](http://colorize.rubyforge.org/files/README_txt.html)
 
-[Another colorize usage sample](http://stackoverflow.com/questions/1489183/colorized-ruby-output?answertab=votes#tab-top)
+Na stackoverflow można spotkać bardzo dużo merytorycznych odpowiedzi. 
+Jeżli masz z czymś problem, prawdopodobnie ktoś już o to spytał.
+[Another colorize usage sample.](http://stackoverflow.com/questions/1489183/colorized-ruby-output?answertab=votes#tab-top)
 
+Oficjalna dokumentacja, przydatna gdy chcemy znaleźć opis działania konkretnej metody:
+[Array - Ruby documentation.](http://www.ruby-doc.org/core-1.9.3/Array.html)
+
+RubyMonk - praktyczne ćwiczenia z podstaw języka:
 [Arrays introduction](http://rubymonk.com/learning/books/1/chapters/1-arrays/lessons/2-arrays-introduction)
-
-[if-else statement](http://rubymonk.com/learning/books/1/chapters/1-arrays/lessons/2-arrays-introduction_)
+[if-else statement](http://rubymonk.com/learning/books/1/chapters/8-control-structures/lessons/41-conditions-using-the-if-statement)
 
 ---
 
