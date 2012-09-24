@@ -32,7 +32,7 @@ Pomimo długiej listy wymienionych elementów, nasz program będzie bardzo krót
 w przybliżeniu 30-kilka linii kodu. 
 Niemniej jednak wykonanie ćwiczenia do końca, z pewnością zwiększy wiele umiejętności:) 
 
-**UWAGA** Dla użytkowników Mac i Windows, mogą wystąpić problemy z intalacją gema 'colorize'. 
+**UWAGA** Dla użytkowników Windows, mogą wystąpić problemy z intalacją gema 'colorize'. 
 Dlatego polecam zostawić ten krok na sam koniec, postaram się w najbliższym czasie dodać odpowiednie instrukcje.
 
 ---
@@ -203,7 +203,7 @@ end
 ### Instalacja gemu colorize.
 
 ```bash
-sudo gem install colorize
+gem install colorize
 ```
 Następnie dodajemy gem na początku naszego programu:
 
