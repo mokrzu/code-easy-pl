@@ -32,6 +32,9 @@ Pomimo długiej listy wymienionych elementów, nasz program będzie bardzo krót
 w przybliżeniu 30-kilka linii kodu. 
 Niemniej jednak wykonanie ćwiczenia do końca, z pewnością zwiększy wiele umiejętności:) 
 
+**UWAGA** Dla użytkowników Mac i Windows, mogą wystąpić problemy z intalacją gema 'colorize'. 
+Dlatego polecam zostawić ten krok na sam koniec, postaram się w najbliższym czasie dodać odpowiednie instrukcje.
+
 ---
 
 ## Opis zadania.
@@ -52,8 +55,8 @@ Podanie polecenia wyjścia, przerywa główną pętlę programu, tym samym końc
 
 Na koniec, do naszej aplikacji dodamy kolorowanie tekstu.
 
-Gra powinna działaś z poziomu konsoli, tzn. po uruchomieniu skryptu `ruby todo.rb`.
-Skrypt(czyt. program) oczywiście należy utworzyć samodzielnie.  
+Program powinien działaś z poziomu konsoli, tzn. po uruchomieniu w sposób: `ruby todo.rb`.
+Skrypt(czyt. program o nazwie 'todo.rb') oczywiście należy utworzyć samodzielnie.  
 
 Jak można zauważyć zadania będę przechowywane tak długo jak działa nasz program, trwałym zapisywaniem danych zajmiemy się w kolejnych przewodnikach.
 
@@ -186,9 +189,9 @@ animals = []
 
 if command == "add"
   animals << "lama"
-elsif command == "count":
+elsif command == "count"
   puts animals.size
-elsif command == "check":
+elsif command == "check"
   puts animals.empty?
 else
   puts "Type correct command"
